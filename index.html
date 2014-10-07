@@ -28,7 +28,7 @@
         // Create custom popup content
         var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
                                 '<img src="' + feature.properties.image + '" width=300 />' +
-                                feature.properties.city +
+                                feature.properties.city + ' ['+feature.geometry.coordinates+']' +
                             '</a>';
 
         // http://leafletjs.com/reference.html#popup
