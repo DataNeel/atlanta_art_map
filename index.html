@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+    .map {margin-left:auto; margin-right:auto; margin-top: 50px; width:700px; height:800px; }
+  </style>
+</head>
+<body>
+<div id='map-one' class='map'> </div>
+<script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoibmVlbHNoaXZkYXNhbmkiLCJhIjoiMHg4dXZfSSJ9.MMu0nIq9-43APljEwlbY9g';
+
+    var map = L.mapbox.map('map-one', 'neelshivdasani.jmc9fpkd').setView([33.764, -84.354], 13);
+
+    var oneArtPlease = L.mapbox.featureLayer()
+    .loadURL('art.geojson')
+    .addTo(map);
+
+    oneArtPlease.on('layeradd', function(e) {
+        var marker = e.layer,
+            feature = marker.feature;
+
+        // Create custom popup content
+        var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
+                                '<img src="' + feature.properties.image + '" width=300 />' +
+                                feature.properties.city +
+                            '</a>';
+
+        // http://leafletjs.com/reference.html#popup
+        marker.bindPopup(popupContent,{
+            closeButton: true,
+            minWidth: 320
+        });
+    });
+</script>
+</body>
+</html>

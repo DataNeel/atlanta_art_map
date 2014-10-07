@@ -1,0 +1,13 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.373821,33.753935]},
+      "properties": {
+        "image": "http://clatl.com/binary/0ee7/1346264939-stenlex.jpg",
+        "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+        "marker-symbol": "star",
+        "marker-color": "#ff8888",
+        "marker-size": "large"}
+    }
+  ]
+}
