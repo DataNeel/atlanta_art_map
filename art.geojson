@@ -10,8 +10,8 @@
         "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
         "icon": {
             "iconUrl": "images/1_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }
@@ -27,8 +27,8 @@
         "picnote": "Between Edgewood and Chamberlain on Boulevard",
         "icon": {
             "iconUrl": "images/2_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -43,8 +43,8 @@
         "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
         "icon": {
             "iconUrl": "images/3_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -59,8 +59,8 @@
         "picnote": "Under Virginia Ave on the Beltline",
         "icon": {
             "iconUrl": "images/4_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -75,8 +75,8 @@
         "picnote": "Under Virginia Ave on the Beltline",
         "icon": {
             "iconUrl": "images/5_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }} 
@@ -91,8 +91,8 @@
         "picnote": "Some shack in the Old Fourth Ward",
         "icon": {
             "iconUrl": "images/6_icon.png",
-            "iconSize": [30, 30],
-            "iconAnchor": [15, 15],
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
