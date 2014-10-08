@@ -33,7 +33,7 @@
     var map = L.mapbox.map('map-one', 'neelshivdasani.jmc9fpkd',{
         maxBounds: bounds,
         minZoom: 11
-      }).setView([33.764, -84.354], 13);
+      }).setView([33.764, -84.366], 14);
 
     var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
@@ -45,8 +45,9 @@
 
         // Create custom popup content
         var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-                                '<img src="' + feature.properties.image + '" width=300 />' +
-                                feature.properties.city +
+                                '<img src="' + feature.properties.image + '" width=300 /><br>' +
+                                feature.geometry.coordinates+'</br>'+
+                                feature.properties.picnote +
                             '</a></div>';
 
         // http://leafletjs.com/reference.html#popup
@@ -55,7 +56,7 @@
             minWidth: 320
         });
 
-        map.fitBounds(oneArtPlease.getBounds());
+ 
     });
 </script>
 </body>

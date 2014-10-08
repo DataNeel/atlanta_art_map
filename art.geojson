@@ -3,22 +3,56 @@
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [-84.373784,33.753923]},
       "properties": {
-        "image": "images/1.jpg",
+        "image": "images/1_thumb.jpg",
         "url": "images/1.jpg",
-        "marker-symbol": "star",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "city": "Behind Joystick Gamebar on Chamberlain"}
+        "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood"}
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [ -84.371933,33.754115]},
       "properties": {
-        "image": "images/2.jpg",
+        "image": "images/2_thumb.jpg",
         "url": "images/2.jpg",
-        "marker-symbol": "star",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "city": "Between Edgewood and Chamberlain on Boulevard"}
+        "picnote": "Between Edgewood and Chamberlain on Boulevard"}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.3528483,33.7770177]},
+      "properties": {
+        "image": "images/3_thumb.jpg",
+        "url": "images/3.jpg",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "On the side of Dark Horse at Greenwood and N. Highland"}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.367882,33.781125]},
+      "properties": {
+        "image": "images/4_thumb.jpg",
+        "url": "images/4.jpg",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Under Virginia Ave on the Beltline"}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.367806,33.781157]},
+      "properties": {
+        "image": "images/5_thumb.jpg",
+        "url": "images/5.jpg",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Under Virginia Ave on the Beltline"} 
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.368069,33.7581812]},
+      "properties": {
+        "image": "images/6_thumb.jpg",
+        "url": "images/6.jpg",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Some shack in the Old Fourth Ward"}
     }
   ]
 }
