@@ -1,37 +1,36 @@
-html, body {
+body {
     padding:0;
-    background:#fefefe;
+    background:#eee;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height:100%;
 }
-.title {
-    font-weight: bold;
-    font-size:28px;
-    padding-bottom: 5px;
+.about {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width:700px; height:550px;
+    text-align: left;
 }
 .nav {
-    padding-left: 15px;
-    padding-bottom: 10px;
 }
 .nav a {
     margin:0;
     color:#000;
-    text-decoration: none;
     margin-bottom: 0;
     font-weight: bold;
-    padding-right: 5px;
-    padding-left: 10px;
-    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .map {
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width:700px; height:550px;
 }
 .map .leaflet-popup-content-wrapper {
     background:#eee;
@@ -57,15 +56,4 @@ html, body {
 
 .thumbnail {
     margin-top:5px;
-}
-
-.about {
-    font-size: 22px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    width:100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    height:550px;
-    text-align: left;
 }
