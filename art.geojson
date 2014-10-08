@@ -7,7 +7,15 @@
         "url": "images/1.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood"}
+        "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
+        "icon": {
+            "iconUrl": "images/1_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }
+        }
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [ -84.371933,33.754115]},
@@ -16,7 +24,14 @@
         "url": "images/2.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Between Edgewood and Chamberlain on Boulevard"}
+        "picnote": "Between Edgewood and Chamberlain on Boulevard",
+        "icon": {
+            "iconUrl": "images/2_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [-84.3528483,33.7770177]},
@@ -25,7 +40,14 @@
         "url": "images/3.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "On the side of Dark Horse at Greenwood and N. Highland"}
+        "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
+        "icon": {
+            "iconUrl": "images/3_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [-84.367882,33.781125]},
@@ -34,7 +56,14 @@
         "url": "images/4.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Under Virginia Ave on the Beltline"}
+        "picnote": "Under Virginia Ave on the Beltline",
+        "icon": {
+            "iconUrl": "images/4_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [-84.367806,33.781157]},
@@ -43,7 +72,14 @@
         "url": "images/5.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Under Virginia Ave on the Beltline"} 
+        "picnote": "Under Virginia Ave on the Beltline",
+        "icon": {
+            "iconUrl": "images/5_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }} 
     },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [-84.368069,33.7581812]},
@@ -52,7 +88,14 @@
         "url": "images/6.jpg",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Some shack in the Old Fourth Ward"}
+        "picnote": "Some shack in the Old Fourth Ward",
+        "icon": {
+            "iconUrl": "images/6_icon.png",
+            "iconSize": [30, 30],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
