@@ -1,11 +1,11 @@
 html, body {
-    padding:0;
     background:#fefefe;
     font-family: sans-serif;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0;
+    padding:0;
     height:100%;
+    width:100%;
 }
 .title {
     font-weight: bold;
@@ -13,8 +13,14 @@ html, body {
     padding-bottom: 5px;
 }
 .nav {
+    background:#fefefe;
     padding-left: 15px;
-    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 1;
 }
 .nav a {
     margin:0;
@@ -57,15 +63,34 @@ html, body {
 
 .thumbnail {
     margin-top:5px;
+    width:300px;
 }
 
 .about {
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 75px;
     margin-bottom: 50px;
     width:100%;
     padding-left: 15px;
     padding-right: 15px;
     height:550px;
     text-align: left;
+}
+  .info {
+    z-index: 1;
+    position:absolute;
+    width:100%;
+    height:110px ;
+    bottom:10px;
+    left:0px;
+    overflow : auto;
+    white-space:nowrap;
+    display:inline-block;
+    }
+.navthumb{
+    display:inline-block;
+    overflow : auto;
+    white-space:nowrap;
+    height:100px;
+    width:auto;
 }
