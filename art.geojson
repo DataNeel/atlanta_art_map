@@ -10,7 +10,7 @@
         "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
         "icon": {
             "iconUrl": "images/1_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
             "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -27,7 +27,7 @@
         "picnote": "Between Edgewood and Chamberlain on Boulevard",
         "icon": {
             "iconUrl": "images/2_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
             "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -43,7 +43,7 @@
         "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
         "icon": {
             "iconUrl": "images/3_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
             "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -59,7 +59,7 @@
         "picnote": "Under Virginia Ave on the Beltline",
         "icon": {
             "iconUrl": "images/4_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
             "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -75,7 +75,7 @@
         "picnote": "Under Virginia Ave on the Beltline",
         "icon": {
             "iconUrl": "images/5_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
             "iconAnchor": [15, 45],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -91,7 +91,23 @@
         "picnote": "Some shack in the Old Fourth Ward",
         "icon": {
             "iconUrl": "images/6_icon.png",
-            "iconSize": [60, 60],
+            "iconSize": [50, 50],
+            "iconAnchor": [30, 30],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.334573,33.753212]},
+      "properties": {
+        "image": "images/7_thumb.jpg",
+        "url": "images/7.jpg",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop",
+        "icon": {
+            "iconUrl": "images/7_icon.png",
+            "iconSize": [50, 50],
             "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
