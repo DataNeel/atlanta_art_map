@@ -95,7 +95,7 @@ html, body {
 .infoheader{
     z-index: 1;
     position:absolute;
-    bottom:105px;
+    bottom:110px;
     left:0px;
     background: #fefefe;
     font-weight: bold;
