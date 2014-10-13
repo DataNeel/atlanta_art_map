@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta property="og:image" content="images/7_thumb.jpg"/>
   <meta charset=utf-8 />
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Atlanta Art Map</title>
