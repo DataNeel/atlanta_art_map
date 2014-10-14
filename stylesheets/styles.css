@@ -55,7 +55,6 @@ html, body {
     text-decoration: none;
     margin-bottom: 0;
     font-weight: bold;
-    display: inline-block;
 }
 .nav a {
     padding-right: 10px;
