@@ -18,9 +18,17 @@
   </script>
 </head>
 <body>
+    <div id="light" class="white_content">
+      The goal of this project is to provide an interactive map of public artwork in Atlanta. Hopefully you'll discover nearby art that you didn't even know about.
+      <br><br>
+      If you want to provide any feeback, request that a piece be added, or be notified of future additions, check out the <a href='http://twitter.com/atlantaartmap'>twitter account</a>.
+      <br><br>
+      <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Back to the map</a>
+    </div>
+    <div id="fade" class="black_overlay"></div>
   <div class='nav'>
     <div class='title'>Atlanta Art Map</div>
-    <a href='index.html'>Map</a> <a href='about.html'>About</a>
+    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">About</a>
     <a href='http://twitter.com/atlantaartmap'>Twitter</a>
   </div>
   <div id='map-one' class='map'></div>
