@@ -73,6 +73,7 @@ html, body {
     line-height:24px;
     outline-style:solid;
     outline-color: #ccc;
+    font-weight: bold;
 }
 .map .leaflet-popup-content-wrapper a {
     color:#036298;

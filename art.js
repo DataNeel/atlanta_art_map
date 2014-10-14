@@ -1,3 +1,10 @@
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+
+pieceID = getURLParameter('piece');
+
+
 L.mapbox.accessToken = 'pk.eyJ1IjoiYXRsYW50YWFydG1hcCIsImEiOiJ0T3oyX3IwIn0.YYbtHpDXBWgojH8IVkOLKQ';
 
 //bounds
@@ -27,10 +34,10 @@ oneArtPlease.on('layeradd', function(e) {
 
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-        '<img src="' + feature.properties.image + '" width="300" title="Click for the full picture" /><br>' +
-        feature.geometry.coordinates+'</br>'+
+        '<img src="' + feature.properties.image + '" width="300" title="Click for the full picture" /><br> Click to Zoom</a>' +
+        '<br><a href="atlantaartmap.com/index.html?piece='+feature.properties.pieceID+'" > Link to this piece </a><br>' +
         feature.properties.picnote +
-        '</a></div>';
+        '</div>';
     marker.bindPopup(popupContent,{
         closeButton: true,
         minWidth: 320
@@ -38,6 +45,11 @@ oneArtPlease.on('layeradd', function(e) {
 
     //change icon
     marker.setIcon(L.icon(feature.properties.icon));
+    //Open piece if ID found in URL
+    if (marker.feature.properties.pieceID == pieceID) {
+        map.panTo(marker.getLatLng());
+        marker.openPopup();
+    }
     //populate thumbnail bar
     var link = info.insertBefore(document.createElement('a'),info.firstChild);
     link.className = 'item';

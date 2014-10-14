@@ -5,6 +5,7 @@
       "properties": {
         "image": "images/1_thumb.jpg",
         "url": "images/1.jpg",
+        "pieceID": "1",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
@@ -22,6 +23,7 @@
       "properties": {
         "image": "images/2_thumb.jpg",
         "url": "images/2.jpg",
+        "pieceID": "2",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Between Edgewood and Chamberlain on Boulevard",
@@ -38,6 +40,7 @@
       "properties": {
         "image": "images/3_thumb.jpg",
         "url": "images/3.jpg",
+        "pieceID": "3",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
@@ -54,6 +57,7 @@
       "properties": {
         "image": "images/4_thumb.jpg",
         "url": "images/4.jpg",
+        "pieceID": "4",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Under Virginia Ave on the Beltline",
@@ -70,6 +74,7 @@
       "properties": {
         "image": "images/5_thumb.jpg",
         "url": "images/5.jpg",
+        "pieceID": "5",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Under Virginia Ave on the Beltline",
@@ -86,6 +91,7 @@
       "properties": {
         "image": "images/6_thumb.jpg",
         "url": "images/6.jpg",
+        "pieceID": "6",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Some shack in the Old Fourth Ward",
@@ -102,6 +108,7 @@
       "properties": {
         "image": "images/7_thumb.jpg",
         "url": "images/7.jpg",
+        "pieceID": "7",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop",
