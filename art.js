@@ -18,7 +18,7 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
         minZoom: 11,
         zoomControl: false 
     }).
-    setView([33.764, -84.366], 14);
+    setView([33.768242, -84.371905], 14);
 
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')

@@ -136,6 +136,23 @@
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.405392,33.773288]},
+      "properties": {
+        "image": "images/9_thumb.jpg",
+        "url": "images/9.jpg",
+        "pieceID": "9",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "HENSE. Carriage Works on the West Side",
+        "icon": {
+            "iconUrl": "images/9_icon.png",
+            "iconSize": [50, 50],
+            "iconAnchor": [30, 30],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
