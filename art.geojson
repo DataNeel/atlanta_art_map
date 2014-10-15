@@ -119,6 +119,23 @@
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.357487,33.773443]},
+      "properties": {
+        "image": "images/8_thumb.jpg",
+        "url": "images/8.jpg",
+        "pieceID": "8",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "R. Land piece on the side of Fellini's",
+        "icon": {
+            "iconUrl": "images/8_icon.png",
+            "iconSize": [50, 50],
+            "iconAnchor": [30, 30],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
