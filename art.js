@@ -44,6 +44,8 @@ oneArtPlease.on('layeradd', function(e) {
     });
 
     //change icon
+    var currentZoom = map.getZoom()-10;
+    marker.feature.properties.icon.iconSize=[10*currentZoom,10*currentZoom];
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
@@ -74,3 +76,14 @@ oneArtPlease.on('layeradd', function(e) {
 
 });
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
+map.on('zoomend', function() {
+  var currentZoom = map.getZoom()-10;
+  oneArtPlease.eachLayer(function(marker) {
+    marker.feature.properties.icon.iconSize=[10*currentZoom,10*currentZoom];
+    newIcon=L.icon(marker.feature.properties.icon);
+    marker.setIcon(L.icon(marker.feature.properties.icon));
+  });
+      console.log(currentZoom);
+    console.log(3*currentZoom);
+});
