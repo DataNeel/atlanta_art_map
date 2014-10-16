@@ -12,7 +12,6 @@
         "icon": {
             "iconUrl": "images/1_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }
@@ -30,7 +29,6 @@
         "icon": {
             "iconUrl": "images/2_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -47,13 +45,12 @@
         "icon": {
             "iconUrl": "images/3_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
     },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.367882,33.781125]},
+      "geometry": {"type": "Point", "coordinates": [-84.3680,33.7810]},
       "properties": {
         "image": "images/4_thumb.jpg",
         "url": "images/4.jpg",
@@ -64,13 +61,12 @@
         "icon": {
             "iconUrl": "images/4_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
     },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.367806,33.781157]},
+      "geometry": {"type": "Point", "coordinates": [ -84.3676,33.7812]},
       "properties": {
         "image": "images/5_thumb.jpg",
         "url": "images/5.jpg",
@@ -81,7 +77,6 @@
         "icon": {
             "iconUrl": "images/5_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [15, 45],
             "popupAnchor": [0, -15],
             "className": "dot"
         }} 
@@ -98,7 +93,6 @@
         "icon": {
             "iconUrl": "images/6_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -115,7 +109,6 @@
         "icon": {
             "iconUrl": "images/7_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -132,7 +125,6 @@
         "icon": {
             "iconUrl": "images/8_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
@@ -149,7 +141,6 @@
         "icon": {
             "iconUrl": "images/9_icon.png",
             "iconSize": [50, 50],
-            "iconAnchor": [30, 30],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
