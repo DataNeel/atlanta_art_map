@@ -144,6 +144,54 @@
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363660,33.752247]},
+      "properties": {
+        "image": "images/10_thumb.jpg",
+        "url": "images/10.jpg",
+        "pieceID": "10",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Welcome to Cabbagetown. Outside of the Krog Tunnel on Wylie",
+        "icon": {
+            "iconUrl": "images/10_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363017,33.752390]},
+      "properties": {
+        "image": "images/11_thumb.jpg",
+        "url": "images/11.jpg",
+        "pieceID": "11",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Outside of the Krog Tunnel on Wylie",
+        "icon": {
+            "iconUrl": "images/11_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363682,33.752818]},
+      "properties": {
+        "image": "images/12_thumb.jpg",
+        "url": "images/12.jpg",
+        "pieceID": "12",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Krog Tunnel. My shitty camera can't even",
+        "icon": {
+            "iconUrl": "images/12_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
