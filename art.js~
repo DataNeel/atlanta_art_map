@@ -35,7 +35,7 @@ oneArtPlease.on('layeradd', function(e) {
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
         '<img src="' + feature.properties.image + '" width="300" title="Click for the full picture" /><br> Click to Zoom</a>' +
-        '<br>Link: http://atlantaartmap.com/index.html?piece='+feature.properties.pieceID+'<br>' +
+        '<br><a href="http://atlantaartmap.com/index.html?piece='+feature.properties.pieceID+'" > Link to this piece </a><br>' +
         feature.properties.picnote +
         '</div>';
     marker.bindPopup(popupContent,{
