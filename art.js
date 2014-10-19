@@ -18,7 +18,7 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
         minZoom: 11,
         zoomControl: false 
     }).
-    setView([33.768242, -84.371905], 14);
+    setView([33.7581812, -84.363660], 14);
 
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
@@ -34,7 +34,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-        '<img src="' + feature.properties.image + '" width="300" title="Click for the full picture" /><br> Click to Zoom</a>' +
+        '<img src="' + feature.properties.image + '" width="300" title="Click for the full picture" /><br> Click for the full picture</a>' +
         '<br>Link: http://atlantaartmap.com/index.html?piece='+feature.properties.pieceID+'<br>' +
         feature.properties.picnote +
         '</div>';
@@ -45,7 +45,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     //change icon
     var currentZoom = map.getZoom()-10;
-    marker.feature.properties.icon.iconSize=[10*currentZoom,10*currentZoom];
+    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
@@ -71,6 +71,7 @@ oneArtPlease.on('layeradd', function(e) {
             map.panTo(marker.getLatLng());
             marker.openPopup();
         }
+        map.setZoom(18);
         return false;
     };
 
@@ -80,7 +81,7 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.on('zoomend', function() {
   var currentZoom = map.getZoom()-10;
   oneArtPlease.eachLayer(function(marker) {
-    marker.feature.properties.icon.iconSize=[10*currentZoom,10*currentZoom];
+    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
     newIcon=L.icon(marker.feature.properties.icon);
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });

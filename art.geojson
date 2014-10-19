@@ -192,6 +192,150 @@
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346777,33.741603]},
+      "properties": {
+        "image": "images/13_thumb.jpg",
+        "url": "images/13.jpg",
+        "pieceID": "13",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The ol' rusty dragon",
+        "icon": {
+            "iconUrl": "images/13_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346799,33.741814]},
+      "properties": {
+        "image": "images/14_thumb.jpg",
+        "url": "images/14.jpg",
+        "pieceID": "14",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The side of Weave Boutique in EAV",
+        "icon": {
+            "iconUrl": "images/14_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346375,33.741384]},
+      "properties": {
+        "image": "images/15_thumb.jpg",
+        "url": "images/15.jpg",
+        "pieceID": "15",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "North side of the Argosy",
+        "icon": {
+            "iconUrl": "images/15_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346188,33.740630]},
+      "properties": {
+        "image": "images/16_thumb.jpg",
+        "url": "images/16.jpg",
+        "pieceID": "16",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Alley in EAV",
+        "icon": {
+            "iconUrl": "images/16_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346434,33.740542]},
+      "properties": {
+        "image": "images/17_thumb.jpg",
+        "url": "images/17.jpg",
+        "pieceID": "17",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Alley in EAV",
+        "icon": {
+            "iconUrl": "images/17_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346825,33.740343]},
+      "properties": {
+        "image": "images/18_thumb.jpg",
+        "url": "images/18.jpg",
+        "pieceID": "18",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The side of Tomatillos",
+        "icon": {
+            "iconUrl": "images/18_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.347011,33.741152]},
+      "properties": {
+        "image": "images/19_thumb.jpg",
+        "url": "images/19.jpg",
+        "pieceID": "19",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Behind EAV Thai and Sushi",
+        "icon": {
+            "iconUrl": "images/19_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346787,33.741277]},
+      "properties": {
+        "image": "images/20_thumb.jpg",
+        "url": "images/20.jpg",
+        "pieceID": "20",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "EAV",
+        "icon": {
+            "iconUrl": "images/20_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346669,33.740684]},
+      "properties": {
+        "image": "images/21_thumb.jpg",
+        "url": "images/21.jpg",
+        "pieceID": "21",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "EAV",
+        "icon": {
+            "iconUrl": "images/21_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
