@@ -51,6 +51,7 @@ oneArtPlease.on('layeradd', function(e) {
     if (marker.feature.properties.pieceID == pieceID) {
         map.panTo(marker.getLatLng());
         marker.openPopup();
+        map.setZoom(17);
     }
     //populate thumbnail bar
     var link = info.insertBefore(document.createElement('a'),info.firstChild);
