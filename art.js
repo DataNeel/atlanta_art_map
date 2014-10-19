@@ -49,7 +49,7 @@ oneArtPlease.on('layeradd', function(e) {
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
-        map.panTo(marker.getLatLng());
+        ap.setView(marker.getLatLng(), 17);
         marker.openPopup();
     }
     //populate thumbnail bar
@@ -68,8 +68,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.panTo(marker.getLatLng());
-            map.setZoom(17);
+            map.setView(marker.getLatLng(), 17);
             marker.openPopup();
         }
         return false;
