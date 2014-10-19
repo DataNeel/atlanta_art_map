@@ -68,7 +68,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setZoom(18);
+            map.setZoom(17);
             map.panTo(marker.getLatLng());
             marker.openPopup();
         }
