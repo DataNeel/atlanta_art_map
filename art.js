@@ -68,7 +68,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setView(marker.getLatLng(), 17);
+            map.setView(marker.getLatLng(), 17, {animation: true});
             marker.openPopup();
         }
         return false;
@@ -84,6 +84,4 @@ map.on('zoomend', function() {
     newIcon=L.icon(marker.feature.properties.icon);
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
-      console.log(currentZoom);
-    console.log(3*currentZoom);
 });
