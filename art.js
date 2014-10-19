@@ -49,7 +49,7 @@ oneArtPlease.on('layeradd', function(e) {
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
-        ap.setView(marker.getLatLng(), 17);
+        map.setView(marker.getLatLng(), 17);
         marker.openPopup();
     }
     //populate thumbnail bar
