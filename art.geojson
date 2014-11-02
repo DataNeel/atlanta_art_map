@@ -336,6 +336,230 @@
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349406,33.766470]},
+      "properties": {
+        "image": "images/22_thumb.jpg",
+        "url": "images/22.jpg",
+        "pieceID": "22",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Licka sto",
+        "icon": {
+            "iconUrl": "images/22_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349718,33.766771]},
+      "properties": {
+        "image": "images/23_thumb.jpg",
+        "url": "images/23.jpg",
+        "pieceID": "23",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Vidya games",
+        "icon": {
+            "iconUrl": "images/23_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349637,33.766967]},
+      "properties": {
+        "image": "images/24_thumb.jpg",
+        "url": "images/24.jpg",
+        "pieceID": "24",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Aurora Coffee, at this time of year, at this time of day, in this part of the country, localized entirely within L5P...",
+        "icon": {
+            "iconUrl": "images/24_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.348896,33.767028]},
+      "properties": {
+        "image": "images/25_thumb.jpg",
+        "url": "images/25.jpg",
+        "pieceID": "25",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Postin up like a mailbox",
+        "icon": {
+            "iconUrl": "images/25_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349510,33.765749]},
+      "properties": {
+        "image": "images/26_thumb.jpg",
+        "url": "images/26.jpg",
+        "pieceID": "26",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Tags",
+        "icon": {
+            "iconUrl": "images/26_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350572,33.764629]},
+      "properties": {
+        "image": "images/27_thumb.jpg",
+        "url": "images/27.jpg",
+        "pieceID": "27",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Sever Risk L5P",
+        "icon": {
+            "iconUrl": "images/27_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350362,33.764732]},
+      "properties": {
+        "image": "images/28_thumb.jpg",
+        "url": "images/28.jpg",
+        "pieceID": "28",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Tags",
+        "icon": {
+            "iconUrl": "images/28_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350417,33.764617]},
+      "properties": {
+        "image": "images/29_thumb.jpg",
+        "url": "images/29.jpg",
+        "pieceID": "29",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P",
+        "icon": {
+            "iconUrl": "images/29_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349809,33.764544]},
+      "properties": {
+        "image": "images/30_thumb.jpg",
+        "url": "images/30.jpg",
+        "pieceID": "30",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Hidden in an alley in L5P",
+        "icon": {
+            "iconUrl": "images/30_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349637,33.764756]},
+      "properties": {
+        "image": "images/31_thumb.jpg",
+        "url": "images/31.jpg",
+        "pieceID": "31",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Da ba dee",
+        "icon": {
+            "iconUrl": "images/31_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.357722,33.749159]},
+      "properties": {
+        "image": "images/32_thumb.jpg",
+        "url": "images/32.jpg",
+        "pieceID": "32",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Reynoldstown",
+        "icon": {
+            "iconUrl": "images/32_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.357078,33.749354]},
+      "properties": {
+        "image": "images/33_thumb.jpg",
+        "url": "images/33.jpg",
+        "pieceID": "33",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Antz a make her dance",
+        "icon": {
+            "iconUrl": "images/33_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.358317,33.747350]},
+      "properties": {
+        "image": "images/34_thumb.jpg",
+        "url": "images/34.jpg",
+        "pieceID": "34",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "ITNI in Reynoldstown",
+        "icon": {
+            "iconUrl": "images/34_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.358660,33.747242]},
+      "properties": {
+        "image": "images/35_thumb.jpg",
+        "url": "images/35.jpg",
+        "pieceID": "35",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Reynoldstown",
+        "icon": {
+            "iconUrl": "images/35_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
     }
   ]
 }
