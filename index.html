@@ -13,6 +13,8 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Atlanta Art Map</title>
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.unveil.js"></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
   <link href='stylesheets/styles.css' type="text/css" rel='stylesheet' />
   <script>
@@ -22,6 +24,11 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-53415288-2', 'auto');
     ga('send', 'pageview');
+  </script>
+  <script>
+    $(function() {
+        $("img.navthumb").unveil(300);
+    });
   </script>
 </head>
 <body>
