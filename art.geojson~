@@ -89,7 +89,7 @@
         "pieceID": "6",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "<B class='gone'>NO LONGER HERE</B><br>Some shack in the Old Fourth Ward",
+        "picnote": "<B class="gone">NO LONGER HERE</B><br>Some shack in the Old Fourth Ward",
         "icon": {
             "iconUrl": "images/6_icon.png",
             "iconSize": [50, 50],
