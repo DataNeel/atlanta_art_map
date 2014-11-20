@@ -24,6 +24,7 @@ var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
     .addTo(map);
 
+
 //identify the thumbnail bar
 var info = document.getElementById('info');
 
@@ -85,3 +86,6 @@ map.on('zoomend', function() {
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
 });
+
+
+$("img.navthumb").lazyload();
