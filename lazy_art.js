@@ -88,8 +88,6 @@ map.on('zoomend', function() {
   });
 });
 
-oneArtPlease.on('ready', function() { 
-    $("img.navthumb").lazyload();
-    });
+
 
 
