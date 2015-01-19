@@ -55,10 +55,10 @@ oneArtPlease.on('layeradd', function(e) {
     }
     //populate thumbnail bar
     var link = info.appendChild(document.createElement('a'),info.firstChild);
-    $("img.navthumb").lazyload();
     link.className = 'item';
     link.href = '#';
     link.innerHTML ='<img src="images/loading.gif" data-original="' + feature.properties.image + '" class="navthumb"/>';
+    $("img.navthumb").lazyload();
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
