@@ -1,529 +1,16 @@
 { "type": "FeatureCollection",
   "features": [
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.373784,33.753923]},
+      "geometry": {"type": "Point", "coordinates": [-84.358660,33.747242]},
       "properties": {
-        "image": "images/1_thumb.jpg",
-        "url": "images/1.jpg",
-        "pieceID": "1",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
-        "icon": {
-            "iconUrl": "images/1_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }
-        }
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [ -84.371933,33.754115]},
-      "properties": {
-        "image": "images/2_thumb.jpg",
-        "url": "images/2.jpg",
-        "pieceID": "2",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Between Edgewood and Chamberlain on Boulevard",
-        "icon": {
-            "iconUrl": "images/2_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.3528483,33.7770177]},
-      "properties": {
-        "image": "images/3_thumb.jpg",
-        "url": "images/3.jpg",
-        "pieceID": "3",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
-        "icon": {
-            "iconUrl": "images/3_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.3680,33.7810]},
-      "properties": {
-        "image": "images/4_thumb.jpg",
-        "url": "images/4.jpg",
-        "pieceID": "4",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Under Virginia Ave on the Beltline",
-        "icon": {
-            "iconUrl": "images/4_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [ -84.3676,33.7812]},
-      "properties": {
-        "image": "images/5_thumb.jpg",
-        "url": "images/5.jpg",
-        "pieceID": "5",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Under Virginia Ave on the Beltline",
-        "icon": {
-            "iconUrl": "images/5_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }} 
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.368069,33.7581812]},
-      "properties": {
-        "image": "images/6_thumb.jpg",
-        "url": "images/6.jpg",
-        "pieceID": "6",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "<B class='gone'>NO LONGER HERE</B><br>Some shack in the Old Fourth Ward",
-        "icon": {
-            "iconUrl": "images/6_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.334573,33.753212]},
-      "properties": {
-        "image": "images/7_thumb.jpg",
-        "url": "images/7.jpg",
-        "pieceID": "7",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop",
-        "icon": {
-            "iconUrl": "images/7_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.357487,33.773443]},
-      "properties": {
-        "image": "images/8_thumb.jpg",
-        "url": "images/8.jpg",
-        "pieceID": "8",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "R. Land piece on the side of Fellini's",
-        "icon": {
-            "iconUrl": "images/8_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.405392,33.773288]},
-      "properties": {
-        "image": "images/9_thumb.jpg",
-        "url": "images/9.jpg",
-        "pieceID": "9",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "HENSE. Atlanta Contemporary Art Center",
-        "icon": {
-            "iconUrl": "images/9_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.363660,33.752247]},
-      "properties": {
-        "image": "images/10_thumb.jpg",
-        "url": "images/10.jpg",
-        "pieceID": "10",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Welcome to Cabbagetown. Outside of the Krog Tunnel on Wylie",
-        "icon": {
-            "iconUrl": "images/10_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.363017,33.752390]},
-      "properties": {
-        "image": "images/11_thumb.jpg",
-        "url": "images/11.jpg",
-        "pieceID": "11",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Outside of the Krog Tunnel on Wylie",
-        "icon": {
-            "iconUrl": "images/11_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.363682,33.752818]},
-      "properties": {
-        "image": "images/12_thumb.jpg",
-        "url": "images/12.jpg",
-        "pieceID": "12",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Krog Tunnel. My shitty camera can't even",
-        "icon": {
-            "iconUrl": "images/12_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346777,33.741603]},
-      "properties": {
-        "image": "images/13_thumb.jpg",
-        "url": "images/13.jpg",
-        "pieceID": "13",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "The ol' rusty dragon",
-        "icon": {
-            "iconUrl": "images/13_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346799,33.741814]},
-      "properties": {
-        "image": "images/14_thumb.jpg",
-        "url": "images/14.jpg",
-        "pieceID": "14",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "The side of Weave Boutique in EAV",
-        "icon": {
-            "iconUrl": "images/14_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346375,33.741384]},
-      "properties": {
-        "image": "images/15_thumb.jpg",
-        "url": "images/15.jpg",
-        "pieceID": "15",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "North side of the Argosy",
-        "icon": {
-            "iconUrl": "images/15_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346188,33.740630]},
-      "properties": {
-        "image": "images/16_thumb.jpg",
-        "url": "images/16.jpg",
-        "pieceID": "16",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Alley in EAV",
-        "icon": {
-            "iconUrl": "images/16_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346434,33.740542]},
-      "properties": {
-        "image": "images/17_thumb.jpg",
-        "url": "images/17.jpg",
-        "pieceID": "17",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Alley in EAV",
-        "icon": {
-            "iconUrl": "images/17_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346825,33.740343]},
-      "properties": {
-        "image": "images/18_thumb.jpg",
-        "url": "images/18.jpg",
-        "pieceID": "18",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "The side of Tomatillos",
-        "icon": {
-            "iconUrl": "images/18_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.347011,33.741152]},
-      "properties": {
-        "image": "images/19_thumb.jpg",
-        "url": "images/19.jpg",
-        "pieceID": "19",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Behind EAV Thai and Sushi",
-        "icon": {
-            "iconUrl": "images/19_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346787,33.741277]},
-      "properties": {
-        "image": "images/20_thumb.jpg",
-        "url": "images/20.jpg",
-        "pieceID": "20",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "EAV",
-        "icon": {
-            "iconUrl": "images/20_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.346669,33.740684]},
-      "properties": {
-        "image": "images/21_thumb.jpg",
-        "url": "images/21.jpg",
-        "pieceID": "21",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "EAV",
-        "icon": {
-            "iconUrl": "images/21_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349406,33.766470]},
-      "properties": {
-        "image": "images/22_thumb.jpg",
-        "url": "images/22.jpg",
-        "pieceID": "22",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "L5P Licka sto",
-        "icon": {
-            "iconUrl": "images/22_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349718,33.766771]},
-      "properties": {
-        "image": "images/23_thumb.jpg",
-        "url": "images/23.jpg",
-        "pieceID": "23",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Vidya games",
-        "icon": {
-            "iconUrl": "images/23_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349637,33.766967]},
-      "properties": {
-        "image": "images/24_thumb.jpg",
-        "url": "images/24.jpg",
-        "pieceID": "24",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Aurora Coffee, at this time of year, at this time of day, in this part of the country, localized entirely within L5P...",
-        "icon": {
-            "iconUrl": "images/24_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.348896,33.767028]},
-      "properties": {
-        "image": "images/25_thumb.jpg",
-        "url": "images/25.jpg",
-        "pieceID": "25",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Postin up like a mailbox",
-        "icon": {
-            "iconUrl": "images/25_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349510,33.765749]},
-      "properties": {
-        "image": "images/26_thumb.jpg",
-        "url": "images/26.jpg",
-        "pieceID": "26",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "L5P Tags",
-        "icon": {
-            "iconUrl": "images/26_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.350572,33.764629]},
-      "properties": {
-        "image": "images/27_thumb.jpg",
-        "url": "images/27.jpg",
-        "pieceID": "27",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Sever Risk L5P",
-        "icon": {
-            "iconUrl": "images/27_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.350362,33.764732]},
-      "properties": {
-        "image": "images/28_thumb.jpg",
-        "url": "images/28.jpg",
-        "pieceID": "28",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "L5P Tags",
-        "icon": {
-            "iconUrl": "images/28_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.350417,33.764617]},
-      "properties": {
-        "image": "images/29_thumb.jpg",
-        "url": "images/29.jpg",
-        "pieceID": "29",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "L5P",
-        "icon": {
-            "iconUrl": "images/29_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349809,33.764544]},
-      "properties": {
-        "image": "images/30_thumb.jpg",
-        "url": "images/30.jpg",
-        "pieceID": "30",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Hidden in an alley in L5P",
-        "icon": {
-            "iconUrl": "images/30_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.349637,33.764756]},
-      "properties": {
-        "image": "images/31_thumb.jpg",
-        "url": "images/31.jpg",
-        "pieceID": "31",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Da ba dee",
-        "icon": {
-            "iconUrl": "images/31_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.357722,33.749159]},
-      "properties": {
-        "image": "images/32_thumb.jpg",
-        "url": "images/32.jpg",
-        "pieceID": "32",
+        "image": "images/35_thumb.jpg",
+        "url": "images/35.jpg",
+        "pieceID": "35",
         "marker-color": "#ff8888",
         "marker-size": "large",
         "picnote": "Reynoldstown",
         "icon": {
-            "iconUrl": "images/32_icon.png",
-            "iconSize": [50, 50],
-            "popupAnchor": [0, -15],
-            "className": "dot"
-        }}
-    },
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.357078,33.749354]},
-      "properties": {
-        "image": "images/33_thumb.jpg",
-        "url": "images/33.jpg",
-        "pieceID": "33",
-        "marker-color": "#ff8888",
-        "marker-size": "large",
-        "picnote": "Antz a make her dance",
-        "icon": {
-            "iconUrl": "images/33_icon.png",
+            "iconUrl": "images/35_icon.png",
             "iconSize": [50, 50],
             "popupAnchor": [0, -15],
             "className": "dot"
@@ -546,20 +33,533 @@
         }}
     },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [-84.358660,33.747242]},
+      "geometry": {"type": "Point", "coordinates": [-84.357078,33.749354]},
       "properties": {
-        "image": "images/35_thumb.jpg",
-        "url": "images/35.jpg",
-        "pieceID": "35",
+        "image": "images/33_thumb.jpg",
+        "url": "images/33.jpg",
+        "pieceID": "33",
         "marker-color": "#ff8888",
         "marker-size": "large",
-        "picnote": "Reynoldstown",
+        "picnote": "Antz a make her dance",
         "icon": {
-            "iconUrl": "images/35_icon.png",
+            "iconUrl": "images/33_icon.png",
             "iconSize": [50, 50],
             "popupAnchor": [0, -15],
             "className": "dot"
         }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.357722,33.749159]},
+      "properties": {
+        "image": "images/32_thumb.jpg",
+        "url": "images/32.jpg",
+        "pieceID": "32",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Reynoldstown",
+        "icon": {
+            "iconUrl": "images/32_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349637,33.764756]},
+      "properties": {
+        "image": "images/31_thumb.jpg",
+        "url": "images/31.jpg",
+        "pieceID": "31",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Da ba dee",
+        "icon": {
+            "iconUrl": "images/31_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349809,33.764544]},
+      "properties": {
+        "image": "images/30_thumb.jpg",
+        "url": "images/30.jpg",
+        "pieceID": "30",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Hidden in an alley in L5P",
+        "icon": {
+            "iconUrl": "images/30_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350417,33.764617]},
+      "properties": {
+        "image": "images/29_thumb.jpg",
+        "url": "images/29.jpg",
+        "pieceID": "29",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P",
+        "icon": {
+            "iconUrl": "images/29_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350362,33.764732]},
+      "properties": {
+        "image": "images/28_thumb.jpg",
+        "url": "images/28.jpg",
+        "pieceID": "28",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Tags",
+        "icon": {
+            "iconUrl": "images/28_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.350572,33.764629]},
+      "properties": {
+        "image": "images/27_thumb.jpg",
+        "url": "images/27.jpg",
+        "pieceID": "27",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Sever Risk L5P",
+        "icon": {
+            "iconUrl": "images/27_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349510,33.765749]},
+      "properties": {
+        "image": "images/26_thumb.jpg",
+        "url": "images/26.jpg",
+        "pieceID": "26",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Tags",
+        "icon": {
+            "iconUrl": "images/26_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.348896,33.767028]},
+      "properties": {
+        "image": "images/25_thumb.jpg",
+        "url": "images/25.jpg",
+        "pieceID": "25",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Postin up like a mailbox",
+        "icon": {
+            "iconUrl": "images/25_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349637,33.766967]},
+      "properties": {
+        "image": "images/24_thumb.jpg",
+        "url": "images/24.jpg",
+        "pieceID": "24",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Aurora Coffee, at this time of year, at this time of day, in this part of the country, localized entirely within L5P...",
+        "icon": {
+            "iconUrl": "images/24_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349718,33.766771]},
+      "properties": {
+        "image": "images/23_thumb.jpg",
+        "url": "images/23.jpg",
+        "pieceID": "23",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Vidya games",
+        "icon": {
+            "iconUrl": "images/23_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.349406,33.766470]},
+      "properties": {
+        "image": "images/22_thumb.jpg",
+        "url": "images/22.jpg",
+        "pieceID": "22",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "L5P Licka sto",
+        "icon": {
+            "iconUrl": "images/22_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346669,33.740684]},
+      "properties": {
+        "image": "images/21_thumb.jpg",
+        "url": "images/21.jpg",
+        "pieceID": "21",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "EAV",
+        "icon": {
+            "iconUrl": "images/21_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346787,33.741277]},
+      "properties": {
+        "image": "images/20_thumb.jpg",
+        "url": "images/20.jpg",
+        "pieceID": "20",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "EAV",
+        "icon": {
+            "iconUrl": "images/20_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.347011,33.741152]},
+      "properties": {
+        "image": "images/19_thumb.jpg",
+        "url": "images/19.jpg",
+        "pieceID": "19",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Behind EAV Thai and Sushi",
+        "icon": {
+            "iconUrl": "images/19_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346825,33.740343]},
+      "properties": {
+        "image": "images/18_thumb.jpg",
+        "url": "images/18.jpg",
+        "pieceID": "18",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The side of Tomatillos",
+        "icon": {
+            "iconUrl": "images/18_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346434,33.740542]},
+      "properties": {
+        "image": "images/17_thumb.jpg",
+        "url": "images/17.jpg",
+        "pieceID": "17",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Alley in EAV",
+        "icon": {
+            "iconUrl": "images/17_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346188,33.740630]},
+      "properties": {
+        "image": "images/16_thumb.jpg",
+        "url": "images/16.jpg",
+        "pieceID": "16",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Alley in EAV",
+        "icon": {
+            "iconUrl": "images/16_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346375,33.741384]},
+      "properties": {
+        "image": "images/15_thumb.jpg",
+        "url": "images/15.jpg",
+        "pieceID": "15",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "North side of the Argosy",
+        "icon": {
+            "iconUrl": "images/15_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346799,33.741814]},
+      "properties": {
+        "image": "images/14_thumb.jpg",
+        "url": "images/14.jpg",
+        "pieceID": "14",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The side of Weave Boutique in EAV",
+        "icon": {
+            "iconUrl": "images/14_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.346777,33.741603]},
+      "properties": {
+        "image": "images/13_thumb.jpg",
+        "url": "images/13.jpg",
+        "pieceID": "13",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "The ol' rusty dragon",
+        "icon": {
+            "iconUrl": "images/13_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363682,33.752818]},
+      "properties": {
+        "image": "images/12_thumb.jpg",
+        "url": "images/12.jpg",
+        "pieceID": "12",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Krog Tunnel. My shitty camera can't even",
+        "icon": {
+            "iconUrl": "images/12_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363017,33.752390]},
+      "properties": {
+        "image": "images/11_thumb.jpg",
+        "url": "images/11.jpg",
+        "pieceID": "11",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Outside of the Krog Tunnel on Wylie",
+        "icon": {
+            "iconUrl": "images/11_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.363660,33.752247]},
+      "properties": {
+        "image": "images/10_thumb.jpg",
+        "url": "images/10.jpg",
+        "pieceID": "10",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Welcome to Cabbagetown. Outside of the Krog Tunnel on Wylie",
+        "icon": {
+            "iconUrl": "images/10_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.405392,33.773288]},
+      "properties": {
+        "image": "images/9_thumb.jpg",
+        "url": "images/9.jpg",
+        "pieceID": "9",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "HENSE. Atlanta Contemporary Art Center",
+        "icon": {
+            "iconUrl": "images/9_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.357487,33.773443]},
+      "properties": {
+        "image": "images/8_thumb.jpg",
+        "url": "images/8.jpg",
+        "pieceID": "8",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "R. Land piece on the side of Fellini's",
+        "icon": {
+            "iconUrl": "images/8_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.334573,33.753212]},
+      "properties": {
+        "image": "images/7_thumb.jpg",
+        "url": "images/7.jpg",
+        "pieceID": "7",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop",
+        "icon": {
+            "iconUrl": "images/7_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.368069,33.7581812]},
+      "properties": {
+        "image": "images/6_thumb.jpg",
+        "url": "images/6.jpg",
+        "pieceID": "6",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "<B class='gone'>NO LONGER HERE</B><br>Some shack in the Old Fourth Ward",
+        "icon": {
+            "iconUrl": "images/6_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [ -84.3676,33.7812]},
+      "properties": {
+        "image": "images/5_thumb.jpg",
+        "url": "images/5.jpg",
+        "pieceID": "5",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Under Virginia Ave on the Beltline",
+        "icon": {
+            "iconUrl": "images/5_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }} 
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.3680,33.7810]},
+      "properties": {
+        "image": "images/4_thumb.jpg",
+        "url": "images/4.jpg",
+        "pieceID": "4",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Under Virginia Ave on the Beltline",
+        "icon": {
+            "iconUrl": "images/4_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.3528483,33.7770177]},
+      "properties": {
+        "image": "images/3_thumb.jpg",
+        "url": "images/3.jpg",
+        "pieceID": "3",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "On the side of Dark Horse at Greenwood and N. Highland",
+        "icon": {
+            "iconUrl": "images/3_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [ -84.371933,33.754115]},
+      "properties": {
+        "image": "images/2_thumb.jpg",
+        "url": "images/2.jpg",
+        "pieceID": "2",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Between Edgewood and Chamberlain on Boulevard",
+        "icon": {
+            "iconUrl": "images/2_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }}
+    },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-84.373784,33.753923]},
+      "properties": {
+        "image": "images/1_thumb.jpg",
+        "url": "images/1.jpg",
+        "pieceID": "1",
+        "marker-color": "#ff8888",
+        "marker-size": "large",
+        "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood",
+        "icon": {
+            "iconUrl": "images/1_icon.png",
+            "iconSize": [50, 50],
+            "popupAnchor": [0, -15],
+            "className": "dot"
+        }
+        }
     }
   ]
 }

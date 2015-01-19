@@ -54,7 +54,8 @@ oneArtPlease.on('layeradd', function(e) {
         marker.openPopup();
     }
     //populate thumbnail bar
-    var link = info.insertBefore(document.createElement('a'),info.firstChild);
+    var link = info.appendChild(document.createElement('a'),info.firstChild);
+    $("img.navthumb").lazyload();
     link.className = 'item';
     link.href = '#';
     link.innerHTML ='<img src="images/loading.gif" data-original="' + feature.properties.image + '" class="navthumb"/>';
@@ -87,7 +88,8 @@ map.on('zoomend', function() {
   });
 });
 
-
 oneArtPlease.on('ready', function() { 
-	$("img.navthumb").lazyload();
-    }); 
+    $("img.navthumb").lazyload();
+    });
+
+
