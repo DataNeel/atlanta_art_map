@@ -141,3 +141,10 @@ html, body {
     border-left: solid #fefefe;
 }
 
+.navthumb{
+    overflow : auto;
+    height:75px;
+    width:auto;
+    border-left: solid #fefefe;
+    border-left: solid #fefefe;
+}
