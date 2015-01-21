@@ -23,9 +23,13 @@
     ga('create', 'UA-53415288-2', 'auto');
     ga('send', 'pageview');
   </script>
-  <!--lazy load-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="jquery.lazyload.min.js"></script>
+
+  <script>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    window.lazySizesConfig.lazyClass = 'navthumb';
+  </script>
+  <script src="lazysizes.js" async=""></script>
+
 </head>
 <body>
     <div id="light" class="white_content">
@@ -46,7 +50,6 @@
 
   </div>
   <div class='infoheader'>&lt;&lt;  Scroll to find a piece  &gt;&gt;</div>
-  <script src='lazy_art.js'>
-  </script>
+  <script src='lazy_art.js'></script>
 </body>
 </html>

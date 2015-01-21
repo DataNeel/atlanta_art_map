@@ -57,8 +57,7 @@ oneArtPlease.on('layeradd', function(e) {
     var link = info.appendChild(document.createElement('a'),info.firstChild);
     link.className = 'item';
     link.href = '#';
-    link.innerHTML ='<img src="images/loading.gif" data-original="' + feature.properties.image + '" class="navthumb"/>';
-    $("img.navthumb").lazyload();
+    link.innerHTML ='<img data-src="' + feature.properties.image + '" class="navthumb"/>';
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
@@ -87,7 +86,5 @@ map.on('zoomend', function() {
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
 });
-
-
 
 
