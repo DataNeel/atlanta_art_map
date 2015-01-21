@@ -54,10 +54,10 @@ oneArtPlease.on('layeradd', function(e) {
         marker.openPopup();
     }
     //populate thumbnail bar
-    var link = info.appendChild(document.createElement('a'),info.firstChild);
+    var link = document.createElement('a');
     link.className = 'item';
     link.href = '#';
-    link.innerHTML ='<img src="images/loading.gif" data-src="' + feature.properties.image + '" class="navthumb"/>';
+    link.innerHTML ='<img src="images/loading.gif" data-src="' + feature.properties.image + '" class="lazyload"/>';
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
@@ -74,6 +74,7 @@ oneArtPlease.on('layeradd', function(e) {
         }
         return false;
     };
+    info.appendChild(link,info.firstChild);
 
 });
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
