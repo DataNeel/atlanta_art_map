@@ -57,7 +57,7 @@ oneArtPlease.on('layeradd', function(e) {
     var link = info.appendChild(document.createElement('a'),info.firstChild);
     link.className = 'item';
     link.href = '#';
-    link.innerHTML ='<img data-src="' + feature.properties.image + '" class="navthumb"/>';
+    link.innerHTML ='<img src="images/loading.gif" data-src="' + feature.properties.image + '" class="navthumb"/>';
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
