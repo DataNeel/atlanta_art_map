@@ -24,14 +24,10 @@
     ga('send', 'pageview');
   </script>
   <script>
-  window.lazySizesConfig = {
-    addClasses: true,
-    loadedClass : 'navthumb'
-  };
+    $(function() {
+        $("img.navthumb").unveil(300);
+    });
   </script>
-
-  <script src="lazysizes.min.js" async=""></script>
-
 </head>
 <body>
     <div id="light" class="white_content">
@@ -48,10 +44,9 @@
     <a href='http://twitter.com/atlantaartmap'>Twitter</a>
   </div>
   <div id='map-one' class='map'></div>
-  <div id='info' class='info'>
-
-  </div>
+  <div id='info' class='info'></div>
   <div class='infoheader'>&lt;&lt;  Scroll to find a piece  &gt;&gt;</div>
-  <script src='lazy_art.js'></script>
+  <script src='art.js'>
+  </script>
 </body>
 </html>

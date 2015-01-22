@@ -24,7 +24,6 @@ var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
     .addTo(map);
 
-
 //identify the thumbnail bar
 var info = document.getElementById('info');
 
@@ -46,7 +45,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     //change icon
     var currentZoom = map.getZoom()-10;
-    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
+    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
@@ -54,10 +53,10 @@ oneArtPlease.on('layeradd', function(e) {
         marker.openPopup();
     }
     //populate thumbnail bar
-    var link = document.createElement('a');
+    var link = info.appendChild(document.createElement('a'),info.firstChild);
     link.className = 'item';
     link.href = '#';
-    link.innerHTML ='<img src="images/loading.gif" data-src="' + feature.properties.image + '" class="lazyload"></img>';
+    link.innerHTML ='<img src="' + feature.properties.image + '" class="navthumb"/>';
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
@@ -74,7 +73,6 @@ oneArtPlease.on('layeradd', function(e) {
         }
         return false;
     };
-    info.appendChild(link,info.firstChild);
 
 });
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
@@ -82,10 +80,8 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.on('zoomend', function() {
   var currentZoom = map.getZoom()-10;
   oneArtPlease.eachLayer(function(marker) {
-    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
+    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
     newIcon=L.icon(marker.feature.properties.icon);
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
 });
-
-
