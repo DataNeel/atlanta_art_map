@@ -87,5 +87,3 @@ map.on('zoomend', function() {
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
 });
-
-
