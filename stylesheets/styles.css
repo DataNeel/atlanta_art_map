@@ -135,7 +135,7 @@ html, body {
     padding-right: 5px;
 }
 .lazyload{
-    overflow : auto;
+
     height:75px;
     width:auto;
     border-left: solid #fefefe;
@@ -143,7 +143,7 @@ html, body {
 }
 
 .navthumb{
-    overflow : auto;
+
     height:75px;
     width:auto;
     border-left: solid #fefefe;
