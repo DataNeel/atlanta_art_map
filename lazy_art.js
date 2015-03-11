@@ -2,6 +2,13 @@ function getURLParameter(name) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 }
 
+function newIconSize() {
+    adjustedZoom=Math.min(map.getZoom(),16)/8;
+    scaler=175;
+    newsize=Math.log10(adjustedZoom)*scaler;
+    return [newsize, newsize];
+};
+
 pieceID = getURLParameter('piece');
 
 
@@ -55,8 +62,7 @@ oneArtPlease.on('layeradd', function(e) {
     });
 
     //change icon
-    var currentZoom = map.getZoom()-10;
-    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
+    marker.feature.properties.icon.iconSize=newIconSize();
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
@@ -101,7 +107,7 @@ map.addLayer(markers);
 map.on('zoomend', function() {
   var currentZoom = map.getZoom()-10;
   oneArtPlease.eachLayer(function(marker) {
-    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
+    marker.feature.properties.icon.iconSize=newIconSize();
     newIcon=L.icon(marker.feature.properties.icon);
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
