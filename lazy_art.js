@@ -15,7 +15,7 @@ bounds = L.latLngBounds(southWest, northEast);
 var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
     {
         maxBounds: bounds,
-        minZoom: 13,
+        minZoom: 12,
         zoomControl: false 
     }).
     setView([33.7581812, -84.363660], 14);
@@ -60,7 +60,7 @@ oneArtPlease.on('layeradd', function(e) {
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
-        map.setView(marker.getLatLng(), 18);
+        map.setView(marker.getLatLng(), 17);
         marker.openPopup();
     }
     //populate thumbnail bar
@@ -79,7 +79,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setView(marker.getLatLng(), 18, {animation: true});
+            map.setView(marker.getLatLng(), 17, {animation: true});
             marker.openPopup();
         }
         return false;
@@ -88,7 +88,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     //maybe zoom when clicking?
     marker.on('click', function() {
-        map.setView(marker.getLatLng(), 19, {animation: true});
+        map.setView(marker.getLatLng(), 17, {animation: true});
     });
     markers.addLayer(marker);
 });
