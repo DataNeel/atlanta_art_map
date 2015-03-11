@@ -20,9 +20,17 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
     }).
     setView([33.7581812, -84.363660], 14);
 
+
+
+var markers = L.markerClusterGroup({
+    maxClusterRadius: 50,
+    disableClusteringAtZoom: 18
+});
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
-    .addTo(map);
+    .addTo(markers);
+
+
 
 
 //identify the thumbnail bar
@@ -30,8 +38,10 @@ var info = document.getElementById('info');
 
 //populate markers
 oneArtPlease.on('layeradd', function(e) {
+    
     var marker = e.layer,
     feature = marker.feature;
+    
 
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
@@ -46,11 +56,11 @@ oneArtPlease.on('layeradd', function(e) {
 
     //change icon
     var currentZoom = map.getZoom()-10;
-    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
+    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
-        map.setView(marker.getLatLng(), 17);
+        map.setView(marker.getLatLng(), 18);
         marker.openPopup();
     }
     //populate thumbnail bar
@@ -69,20 +79,29 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setView(marker.getLatLng(), 17, {animation: true});
+            map.setView(marker.getLatLng(), 18, {animation: true});
             marker.openPopup();
         }
         return false;
     };
     info.appendChild(link,info.firstChild);
 
+    //maybe zoom when clicking?
+    marker.on('click', function() {
+        map.setView(marker.getLatLng(), 19, {animation: true});
+    });
+    markers.addLayer(marker);
 });
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
+//add zoom control
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+map.addLayer(markers);
+
+//resize icons on zoom end
 map.on('zoomend', function() {
   var currentZoom = map.getZoom()-10;
   oneArtPlease.eachLayer(function(marker) {
-    marker.feature.properties.icon.iconSize=[9*currentZoom,9*currentZoom];
+    marker.feature.properties.icon.iconSize=[7*currentZoom,7*currentZoom];
     newIcon=L.icon(marker.feature.properties.icon);
     marker.setIcon(L.icon(marker.feature.properties.icon));
   });
