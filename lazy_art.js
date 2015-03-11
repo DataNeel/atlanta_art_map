@@ -9,6 +9,10 @@ function newIconSize() {
     return [newsize, newsize];
 };
 
+function newZoom() {
+    return Math.max(17,map.getZoom());
+};
+
 pieceID = getURLParameter('piece');
 
 
@@ -66,7 +70,7 @@ oneArtPlease.on('layeradd', function(e) {
     marker.setIcon(L.icon(feature.properties.icon));
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
-        map.setView(marker.getLatLng(), 17);
+        map.setView(marker.getLatLng(), newZoom());
         marker.openPopup();
     }
     //populate thumbnail bar
@@ -85,7 +89,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setView(marker.getLatLng(), 17, {animation: true});
+            map.setView(marker.getLatLng(), newZoom(), {animation: true});
             marker.openPopup();
         }
         return false;
@@ -94,7 +98,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     //maybe zoom when clicking?
     marker.on('click', function() {
-        map.setView(marker.getLatLng(), 17, {animation: true});
+        map.setView(marker.getLatLng(), newZoom(), {animation: true});
     });
     markers.addLayer(marker);
 });
