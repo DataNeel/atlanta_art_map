@@ -35,7 +35,7 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
 
 var markers = L.markerClusterGroup({
     maxClusterRadius: 50,
-    disableClusteringAtZoom: 16
+    disableClusteringAtZoom: 17
 });
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
