@@ -10,7 +10,7 @@ function newIconSize() {
 };
 
 function newZoom() {
-    return Math.max(17,map.getZoom());
+    return Math.max(18,map.getZoom());
 };
 
 pieceID = getURLParameter('piece');
@@ -26,7 +26,7 @@ bounds = L.latLngBounds(southWest, northEast);
 var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
     {
         maxBounds: bounds,
-        minZoom: 12,
+        minZoom: 13,
         zoomControl: false 
     }).
     setView([33.7581812, -84.363660], 14);
@@ -35,7 +35,7 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
 
 var markers = L.markerClusterGroup({
     maxClusterRadius: 50,
-    disableClusteringAtZoom: 17
+    disableClusteringAtZoom: 16
 });
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
@@ -77,7 +77,7 @@ oneArtPlease.on('layeradd', function(e) {
     var link = document.createElement('a');
     link.className = 'item';
     link.href = '#';
-    link.innerHTML ='<img src="images/loading.gif" data-src="' + feature.properties.image + '" class="lazyload"></img>';
+    link.innerHTML ='<img src="" data-src="' + feature.properties.nav + '" class="lazyload"></img>';
     link.onclick = function() {
         if (/active/.test(this.className)) {
             this.className = this.className.replace(/active/, '').replace(/\s\s*$/, '');
@@ -96,7 +96,7 @@ oneArtPlease.on('layeradd', function(e) {
     };
     info.appendChild(link,info.firstChild);
 
-    //maybe zoom when clicking?
+    //Zoom when clicking a marker
     marker.on('click', function() {
         map.setView(marker.getLatLng(), newZoom(), {animation: true});
     });
