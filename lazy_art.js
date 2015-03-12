@@ -29,7 +29,7 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
         minZoom: 13,
         zoomControl: false 
     }).
-    setView([33.7581812, -84.363660], 14);
+    setView([33.7581812, -84.363660], 13);
 
 
 
