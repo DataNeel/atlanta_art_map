@@ -3,8 +3,8 @@ function getURLParameter(name) {
 }
 
 function newIconSize() {
-    adjustedZoom=Math.min(map.getZoom(),16)/8;
-    scaler=175;
+    adjustedZoom=Math.min(map.getZoom(),17)/8;
+    scaler=150;
     newsize=Math.log10(adjustedZoom)*scaler;
     return [newsize, newsize];
 };
