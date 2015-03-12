@@ -5,6 +5,161 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -84.424016, 
+                    33.78534
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "url": "images/40.jpg", 
+                "nav": "images/40_nav.jpg", 
+                "image": "images/40_thumb.jpg", 
+                "picnote": "RIP Carver's Country Kitchen", 
+                "pieceID": 40, 
+                "marker-size": "large", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/40_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.407344, 
+                    33.778288
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/39_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }, 
+                "url": "images/39.jpg", 
+                "image": "images/39_thumb.jpg", 
+                "nav": "images/39_nav.jpg", 
+                "pieceID": 39, 
+                "picnote": "Check this out next time you're at Inserection", 
+                "marker-size": "large"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.367309, 
+                    33.751063
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "url": "images/38.jpg", 
+                "image": "images/38_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/38_nav.jpg", 
+                "pieceID": 38, 
+                "picnote": "SEVER the ATL twins", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/38_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.365712, 
+                    33.746859
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/37_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }, 
+                "url": "images/37.jpg", 
+                "image": "images/37_thumb.jpg", 
+                "nav": "images/37_nav.jpg", 
+                "pieceID": 37, 
+                "picnote": "Cabbagetown", 
+                "marker-size": "large"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.34956, 
+                    33.758458
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "url": "images/36.jpg", 
+                "image": "images/36_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/36_nav.jpg", 
+                "pieceID": 36, 
+                "picnote": "Across the street from that place where everybody gets carjacked", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/36_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -84.35866, 
                     33.747242
                 ]
@@ -12,12 +167,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/35.jpg", 
-                "nav": "images/35_nav.jpg", 
-                "image": "images/35_thumb.jpg", 
-                "picnote": "Reynoldstown", 
-                "pieceID": 35, 
-                "marker-size": "large", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -29,7 +178,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/35.jpg", 
+                "image": "images/35_thumb.jpg", 
+                "nav": "images/35_nav.jpg", 
+                "pieceID": 35, 
+                "picnote": "Reynoldstown", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -43,6 +198,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/34.jpg", 
+                "image": "images/34_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/34_nav.jpg", 
+                "pieceID": 34, 
+                "picnote": "ITNI in Reynoldstown", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -54,13 +215,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/34.jpg", 
-                "image": "images/34_thumb.jpg", 
-                "nav": "images/34_nav.jpg", 
-                "pieceID": 34, 
-                "picnote": "ITNI in Reynoldstown", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -74,12 +229,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/33.jpg", 
-                "image": "images/33_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/33_nav.jpg", 
-                "pieceID": 33, 
-                "picnote": "Ants", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -91,7 +240,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/33.jpg", 
+                "image": "images/33_thumb.jpg", 
+                "nav": "images/33_nav.jpg", 
+                "pieceID": 33, 
+                "picnote": "Ants", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -105,6 +260,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/32.jpg", 
+                "image": "images/32_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/32_nav.jpg", 
+                "pieceID": 32, 
+                "picnote": "Reynoldstown", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -116,13 +277,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/32.jpg", 
-                "image": "images/32_thumb.jpg", 
-                "nav": "images/32_nav.jpg", 
-                "pieceID": 32, 
-                "picnote": "Reynoldstown", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -136,12 +291,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/31.jpg", 
-                "image": "images/31_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/31_nav.jpg", 
-                "pieceID": 31, 
-                "picnote": "Da ba dee", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -153,7 +302,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/31.jpg", 
+                "image": "images/31_thumb.jpg", 
+                "nav": "images/31_nav.jpg", 
+                "pieceID": 31, 
+                "picnote": "Da ba dee", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -167,6 +322,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/30.jpg", 
+                "image": "images/30_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/30_nav.jpg", 
+                "pieceID": 30, 
+                "picnote": "Hidden in an alley in L5P", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -178,13 +339,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/30.jpg", 
-                "image": "images/30_thumb.jpg", 
-                "nav": "images/30_nav.jpg", 
-                "pieceID": 30, 
-                "picnote": "Hidden in an alley in L5P", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -198,12 +353,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/29.jpg", 
-                "image": "images/29_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/29_nav.jpg", 
-                "pieceID": 29, 
-                "picnote": "L5P", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -215,7 +364,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/29.jpg", 
+                "image": "images/29_thumb.jpg", 
+                "nav": "images/29_nav.jpg", 
+                "pieceID": 29, 
+                "picnote": "L5P", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -229,6 +384,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/28.jpg", 
+                "image": "images/28_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/28_nav.jpg", 
+                "pieceID": 28, 
+                "picnote": "L5P tags", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -240,13 +401,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/28.jpg", 
-                "image": "images/28_thumb.jpg", 
-                "nav": "images/28_nav.jpg", 
-                "pieceID": 28, 
-                "picnote": "L5P tags", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -260,12 +415,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/27.jpg", 
-                "image": "images/27_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/27_nav.jpg", 
-                "pieceID": 27, 
-                "picnote": "Sever Risk L5P", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -277,7 +426,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/27.jpg", 
+                "image": "images/27_thumb.jpg", 
+                "nav": "images/27_nav.jpg", 
+                "pieceID": 27, 
+                "picnote": "Sever Risk L5P", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -291,6 +446,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/26.jpg", 
+                "image": "images/26_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/26_nav.jpg", 
+                "pieceID": 26, 
+                "picnote": "L5P tags", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -302,13 +463,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/26.jpg", 
-                "image": "images/26_thumb.jpg", 
-                "nav": "images/26_nav.jpg", 
-                "pieceID": 26, 
-                "picnote": "L5P tags", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -322,12 +477,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/25.jpg", 
-                "image": "images/25_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/25_nav.jpg", 
-                "pieceID": 25, 
-                "picnote": "Posted up like a mailbox", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -339,7 +488,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/25.jpg", 
+                "image": "images/25_thumb.jpg", 
+                "nav": "images/25_nav.jpg", 
+                "pieceID": 25, 
+                "picnote": "Posted up like a mailbox", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -353,6 +508,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/24.jpg", 
+                "image": "images/24_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/24_nav.jpg", 
+                "pieceID": 24, 
+                "picnote": "Aurora Coffee, at this time of year, at this time of day, in this part of the country, localized entirely within L5P...", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -364,13 +525,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/24.jpg", 
-                "image": "images/24_thumb.jpg", 
-                "nav": "images/24_nav.jpg", 
-                "pieceID": 24, 
-                "picnote": "Aurora Coffee, at this time of year, at this time of day, in this part of the country, localized entirely within L5P...", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -384,12 +539,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/23.jpg", 
-                "image": "images/23_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/23_nav.jpg", 
-                "pieceID": 23, 
-                "picnote": "Vidya games", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -401,7 +550,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/23.jpg", 
+                "image": "images/23_thumb.jpg", 
+                "nav": "images/23_nav.jpg", 
+                "pieceID": 23, 
+                "picnote": "Vidya games", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -415,6 +570,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/22.jpg", 
+                "image": "images/22_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/22_nav.jpg", 
+                "pieceID": 22, 
+                "picnote": "L5P Liquor Store", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -426,13 +587,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/22.jpg", 
-                "image": "images/22_thumb.jpg", 
-                "nav": "images/22_nav.jpg", 
-                "pieceID": 22, 
-                "picnote": "L5P Liquor Store", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -446,12 +601,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/21.jpg", 
-                "image": "images/21_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/21_nav.jpg", 
-                "pieceID": 21, 
-                "picnote": "EAV", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -463,7 +612,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/21.jpg", 
+                "image": "images/21_thumb.jpg", 
+                "nav": "images/21_nav.jpg", 
+                "pieceID": 21, 
+                "picnote": "EAV", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -477,6 +632,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/20.jpg", 
+                "image": "images/20_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/20_nav.jpg", 
+                "pieceID": 20, 
+                "picnote": "EAV", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -488,13 +649,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/20.jpg", 
-                "image": "images/20_thumb.jpg", 
-                "nav": "images/20_nav.jpg", 
-                "pieceID": 20, 
-                "picnote": "EAV", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -508,12 +663,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/19.jpg", 
-                "image": "images/19_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/19_nav.jpg", 
-                "pieceID": 19, 
-                "picnote": "Behind EAV Thai and Sushi", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -525,7 +674,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/19.jpg", 
+                "image": "images/19_thumb.jpg", 
+                "nav": "images/19_nav.jpg", 
+                "pieceID": 19, 
+                "picnote": "Behind EAV Thai and Sushi", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -539,6 +694,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/18.jpg", 
+                "image": "images/18_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/18_nav.jpg", 
+                "pieceID": 18, 
+                "picnote": "The side of Tomatillos", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -550,13 +711,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/18.jpg", 
-                "image": "images/18_thumb.jpg", 
-                "nav": "images/18_nav.jpg", 
-                "pieceID": 18, 
-                "picnote": "The side of Tomatillos", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -570,12 +725,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/17.jpg", 
-                "image": "images/17_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/17_nav.jpg", 
-                "pieceID": 17, 
-                "picnote": "Alley in EAV", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -587,7 +736,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/17.jpg", 
+                "image": "images/17_thumb.jpg", 
+                "nav": "images/17_nav.jpg", 
+                "pieceID": 17, 
+                "picnote": "Alley in EAV", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -601,6 +756,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/16.jpg", 
+                "image": "images/16_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/16_nav.jpg", 
+                "pieceID": 16, 
+                "picnote": "Alley in EAV", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -612,13 +773,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/16.jpg", 
-                "image": "images/16_thumb.jpg", 
-                "nav": "images/16_nav.jpg", 
-                "pieceID": 16, 
-                "picnote": "Alley in EAV", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -632,12 +787,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/15.jpg", 
-                "image": "images/15_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/15_nav.jpg", 
-                "pieceID": 15, 
-                "picnote": "North side of the Argosy", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -649,7 +798,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/15.jpg", 
+                "image": "images/15_thumb.jpg", 
+                "nav": "images/15_nav.jpg", 
+                "pieceID": 15, 
+                "picnote": "North side of the Argosy", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -663,6 +818,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/14.jpg", 
+                "image": "images/14_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/14_nav.jpg", 
+                "pieceID": 14, 
+                "picnote": "The side of Weave Boutique in EAV", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -674,13 +835,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/14.jpg", 
-                "image": "images/14_thumb.jpg", 
-                "nav": "images/14_nav.jpg", 
-                "pieceID": 14, 
-                "picnote": "The side of Weave Boutique in EAV", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -694,12 +849,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/13.jpg", 
-                "image": "images/13_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/13_nav.jpg", 
-                "pieceID": 13, 
-                "picnote": "The ol' rusty dragon", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -711,7 +860,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/13.jpg", 
+                "image": "images/13_thumb.jpg", 
+                "nav": "images/13_nav.jpg", 
+                "pieceID": 13, 
+                "picnote": "The ol' rusty dragon", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -725,6 +880,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/12.jpg", 
+                "image": "images/12_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/12_nav.jpg", 
+                "pieceID": 12, 
+                "picnote": "Krog Tunnel", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -736,13 +897,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/12.jpg", 
-                "image": "images/12_thumb.jpg", 
-                "nav": "images/12_nav.jpg", 
-                "pieceID": 12, 
-                "picnote": "Krog Tunnel", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -756,12 +911,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/11.jpg", 
-                "image": "images/11_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/11_nav.jpg", 
-                "pieceID": 11, 
-                "picnote": "Outside of the Krog Tunnel on Wylie", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -773,7 +922,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/11.jpg", 
+                "image": "images/11_thumb.jpg", 
+                "nav": "images/11_nav.jpg", 
+                "pieceID": 11, 
+                "picnote": "Outside of the Krog Tunnel on Wylie", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -787,6 +942,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/10.jpg", 
+                "image": "images/10_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/10_nav.jpg", 
+                "pieceID": 10, 
+                "picnote": "Welcome to Cabbagetown. Outside of the Krog Tunnel on Wylie", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -798,13 +959,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/10.jpg", 
-                "image": "images/10_thumb.jpg", 
-                "nav": "images/10_nav.jpg", 
-                "pieceID": 10, 
-                "picnote": "Welcome to Cabbagetown. Outside of the Krog Tunnel on Wylie", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -818,12 +973,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/9.jpg", 
-                "image": "images/9_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/9_nav.jpg", 
-                "pieceID": 9, 
-                "picnote": "HENSE. Atlanta Contemporary Art Center", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -835,7 +984,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/9.jpg", 
+                "image": "images/9_thumb.jpg", 
+                "nav": "images/9_nav.jpg", 
+                "pieceID": 9, 
+                "picnote": "HENSE. Atlanta Contemporary Art Center", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -849,6 +1004,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/8.jpg", 
+                "image": "images/8_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/8_nav.jpg", 
+                "pieceID": 8, 
+                "picnote": "R. Land piece on the side of Fellini's", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -860,13 +1021,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/8.jpg", 
-                "image": "images/8_thumb.jpg", 
-                "nav": "images/8_nav.jpg", 
-                "pieceID": 8, 
-                "picnote": "R. Land piece on the side of Fellini's", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -880,12 +1035,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/7.jpg", 
-                "image": "images/7_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/7_nav.jpg", 
-                "pieceID": 7, 
-                "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -897,7 +1046,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/7.jpg", 
+                "image": "images/7_thumb.jpg", 
+                "nav": "images/7_nav.jpg", 
+                "pieceID": 7, 
+                "picnote": "Hosea Williams and Woodbine. Across from the Spotted Trotter and Trophy Room Barber Shop", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -911,6 +1066,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/6.jpg", 
+                "image": "images/6_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/6_nav.jpg", 
+                "pieceID": 6, 
+                "picnote": "<B class='gone'>NO LONGER HERE</B><br>Some shack in the Old Fourth Ward", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -922,13 +1083,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/6.jpg", 
-                "image": "images/6_thumb.jpg", 
-                "nav": "images/6_nav.jpg", 
-                "pieceID": 6, 
-                "picnote": "<B class='gone'>NO LONGER HERE</B><br>Some shack in the Old Fourth Ward", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -942,12 +1097,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/5.jpg", 
-                "image": "images/5_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/5_nav.jpg", 
-                "pieceID": 5, 
-                "picnote": "HENSE under Virginia Ave on the Beltline", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -959,7 +1108,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/5.jpg", 
+                "image": "images/5_thumb.jpg", 
+                "nav": "images/5_nav.jpg", 
+                "pieceID": 5, 
+                "picnote": "HENSE under Virginia Ave on the Beltline", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -973,6 +1128,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/4.jpg", 
+                "image": "images/4_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/4_nav.jpg", 
+                "pieceID": 4, 
+                "picnote": "On the side of Dark Horse at Greenwood and N. Highland", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -984,13 +1145,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/4.jpg", 
-                "image": "images/4_thumb.jpg", 
-                "nav": "images/4_nav.jpg", 
-                "pieceID": 4, 
-                "picnote": "On the side of Dark Horse at Greenwood and N. Highland", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -1004,12 +1159,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/3.jpg", 
-                "image": "images/3_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/3_nav.jpg", 
-                "pieceID": 3, 
-                "picnote": "On the side of Dark Horse at Greenwood and N. Highland", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -1021,7 +1170,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/3.jpg", 
+                "image": "images/3_thumb.jpg", 
+                "nav": "images/3_nav.jpg", 
+                "pieceID": 3, 
+                "picnote": "On the side of Dark Horse at Greenwood and N. Highland", 
+                "marker-size": "large"
             }
         }, 
         {
@@ -1035,6 +1190,12 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
+                "url": "images/2.jpg", 
+                "image": "images/2_thumb.jpg", 
+                "marker-size": "large", 
+                "nav": "images/2_nav.jpg", 
+                "pieceID": 2, 
+                "picnote": "Between Edgewood and Chamberlain on Boulevard", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -1046,13 +1207,7 @@
                         -15
                     ], 
                     "className": "dot"
-                }, 
-                "url": "images/2.jpg", 
-                "image": "images/2_thumb.jpg", 
-                "nav": "images/2_nav.jpg", 
-                "pieceID": 2, 
-                "picnote": "Between Edgewood and Chamberlain on Boulevard", 
-                "marker-size": "large"
+                }
             }
         }, 
         {
@@ -1066,12 +1221,6 @@
             "type": "Feature", 
             "properties": {
                 "marker-color": "#ff8888", 
-                "url": "images/1.jpg", 
-                "image": "images/1_thumb.jpg", 
-                "marker-size": "large", 
-                "nav": "images/1_nav.jpg", 
-                "pieceID": 1, 
-                "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood", 
                 "icon": {
                     "iconSize": [
                         50, 
@@ -1083,7 +1232,13 @@
                         -15
                     ], 
                     "className": "dot"
-                }
+                }, 
+                "url": "images/1.jpg", 
+                "image": "images/1_thumb.jpg", 
+                "nav": "images/1_nav.jpg", 
+                "pieceID": 1, 
+                "picnote": "Behind Joystick Gamebar between Chamberlain and Edgewood", 
+                "marker-size": "large"
             }
         }
     ]
