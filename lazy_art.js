@@ -15,7 +15,6 @@ function newZoom() {
 
 pieceID = getURLParameter('piece');
 
-
 L.mapbox.accessToken = 'pk.eyJ1IjoiYXRsYW50YWFydG1hcCIsImEiOiJ0T3oyX3IwIn0.YYbtHpDXBWgojH8IVkOLKQ';
 
 //bounds
@@ -31,8 +30,6 @@ var map = L.mapbox.map('map-one', 'atlantaartmap.jnem740e',
     }).
     setView([33.7581812, -84.363660], 13);
 
-
-
 var markers = L.markerClusterGroup({
     maxClusterRadius: 50,
     disableClusteringAtZoom: 17
@@ -40,9 +37,6 @@ var markers = L.markerClusterGroup({
 var oneArtPlease = L.mapbox.featureLayer()
     .loadURL('art.geojson')
     .addTo(markers);
-
-
-
 
 //identify the thumbnail bar
 var info = document.getElementById('info');
@@ -52,7 +46,6 @@ oneArtPlease.on('layeradd', function(e) {
     
     var marker = e.layer,
     feature = marker.feature;
-    
 
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
@@ -68,11 +61,15 @@ oneArtPlease.on('layeradd', function(e) {
     //change icon
     marker.feature.properties.icon.iconSize=newIconSize();
     marker.setIcon(L.icon(feature.properties.icon));
+
     //Open piece if ID found in URL
     if (marker.feature.properties.pieceID == pieceID) {
+        marker.once('add', function () {
+            marker.openPopup();
+        });
         map.setView(marker.getLatLng(), newZoom());
-        marker.openPopup();
     }
+
     //populate thumbnail bar
     var link = document.createElement('a');
     link.className = 'item';

@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": "[100,50]"
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "url": "images/101.jpg", 
+                "image": "images/101_thumb.jpg", 
+                "marker-size": "large", 
+                "pieceID": 101, 
+                "picnote": "this is a dope pic", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/101_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": "[1, 2]"
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/100_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }, 
+                "url": "images/100.jpg", 
+                "image": "images/100_thumb.jpg", 
+                "pieceID": 100, 
+                "picnote": "test", 
+                "marker-size": "large"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.35866, 
+                    33.747242
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "marker-color": "#ff8888", 
+                "url": "images/35.jpg", 
+                "image": "images/35_thumb.jpg", 
+                "marker-size": "large", 
+                "pieceID": "35", 
+                "picnote": "Reynoldstown", 
+                "icon": {
+                    "iconSize": [
+                        50, 
+                        50
+                    ], 
+                    "iconUrl": "images/35_icon.png", 
+                    "popupAnchor": [
+                        0, 
+                        -15
+                    ], 
+                    "className": "dot"
+                }
+            }
+        }
+    ]
+}
