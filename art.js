@@ -13,6 +13,11 @@ function newZoom() {
     return Math.max(18,map.getZoom());
 };
 
+function offCenter(targetLatLng) {
+    targetPoint = map.project(targetLatLng, newZoom()).subtract([0, map.getSize().y/7]);
+    return map.unproject(targetPoint, newZoom());
+};
+
 pieceID = getURLParameter('piece');
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiYXRsYW50YWFydG1hcCIsImEiOiJ0T3oyX3IwIn0.YYbtHpDXBWgojH8IVkOLKQ';
@@ -49,7 +54,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     // popupz
     var popupContent =  '<div class="thumbnail"><a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-        '<img src="' + feature.properties.image + '" title="Click for the full picture" /><br> Click for the full picture</a>' +
+        '<center><img src="' + feature.properties.image + '" title="Click for the full picture" /></center><br> Click for the full picture</a>' +
         '<br>Link: http://atlantaartmap.com/index.html?piece='+feature.properties.pieceID+'<br>' +
         feature.properties.picnote +
         '</div>';
@@ -67,7 +72,7 @@ oneArtPlease.on('layeradd', function(e) {
         marker.once('add', function () {
             marker.openPopup();
         });
-        map.setView(marker.getLatLng(), newZoom());
+        map.setView(offCenter(marker.getLatLng()), newZoom());
     }
 
     //populate thumbnail bar
@@ -86,7 +91,7 @@ oneArtPlease.on('layeradd', function(e) {
             };
             this.className += ' active';
             // move to marker and open on thumbnail click
-            map.setView(marker.getLatLng(), newZoom(), {animation: true});
+            map.setView(offCenter(marker.getLatLng()), newZoom(), {animation: true});
             marker.openPopup();
         }
         return false;
@@ -95,7 +100,7 @@ oneArtPlease.on('layeradd', function(e) {
 
     //Zoom when clicking a marker
     marker.on('click', function() {
-        map.setView(marker.getLatLng(), newZoom(), {animation: true});
+        map.setView(offCenter(marker.getLatLng()), newZoom(), {animation: true});
     });
     markers.addLayer(marker);
 });
