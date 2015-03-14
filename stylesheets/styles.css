@@ -38,8 +38,7 @@ html, body {
 }
 .title {
     font-weight: bold;
-    font-size:28px;
-    padding-bottom: 5px;
+    font-size:24px;
 }
 .nav {
     background:#fefefe;
