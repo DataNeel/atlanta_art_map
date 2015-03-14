@@ -39,6 +39,8 @@ html, body {
 .title {
     font-weight: bold;
     font-size:24px;
+    padding-top: 5px;
+    vertical-align: middle;
 }
 .nav {
     background:#fefefe;
