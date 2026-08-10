@@ -12,8 +12,6 @@ See `.obvious/codebase-map.md`.
 
 ## Repo Guidance for Autobuild
 
-No AGENTS.md, CLAUDE.md, CONTRIBUTING.md, or .cursorrules found. Guidance derived from repo inspection:
-
 - **Stack:** Static HTML/CSS/JS site served by GitHub Pages. No build step, no package manager, no test framework.
 - **Default branch:** `gh-pages` (the live site branch).
 - **Map library:** Mapbox.js v2.0.1 loaded via CDN. Mapbox access token is hardcoded in `art.js`.
