@@ -1,0 +1,12 @@
+branches:
+  defaultBase: gh-pages
+pr:
+  merge:
+    method: squash
+release:
+  bot:
+    feedbackMaxRounds: 5
+preview:
+  deploy:
+    pollIntervalSeconds: 30
+    timeoutMinutes: 10
