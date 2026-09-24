@@ -28,9 +28,9 @@ See `.obvious/codebase-map.md`.
 
 The `component-manifest-generator` skill requires a root `package.json` to identify and catalog UI components. This repository is a static site with no package manager, build system, or component framework. The skill does not apply. See `.obvious/design/components.md` for details.
 
-## Local Verification
+## Local Verification Summary
 
-> **Note:** This is a static GitHub Pages site with no build system, package manager, or test framework. Local dev verification was not applicable (SCAFFOLD branch). The site can be previewed by opening `index.html` in a browser or serving the directory with any static file server (e.g., `python3 -m http.server`).
+> **Verified:** 2026-09-24 (autobuild local-dev run, `dev_stack_healthy: true`)
 
 ### Verified Commands
 
@@ -38,17 +38,20 @@ No build, lint, typecheck, or test commands exist for this repo.
 
 ### Scoped Workflow
 
-1. **Preview locally:** `python3 -m http.server 8000` — then open `http://localhost:8000` in a browser
-2. **Validate GeoJSON:** `python3 -c "import json; json.load(open('art.geojson'))"` — verify data integrity
-3. **No lint, typecheck, or test steps** — static site with no tooling
+1. **Serve locally:** `python3 -m http.server 8321 --bind 127.0.0.1` — open `http://127.0.0.1:8321/` in a browser (any static file server works; there is no canonical dev server in the repo)
+2. **Validate GeoJSON:** `python3 -c "import json; json.load(open('art.geojson'))"` — 40 features, parses clean
+3. **Browser verification (Playwright + headless Chromium):** `#map-one` renders, `.leaflet-marker-icon` markers appear (10 clustered from 40 GeoJSON features), deep link `index.html?piece=1` opens a popup with the piece's `picnote` text, screenshot captured
+4. **No lint, typecheck, or test steps** — static site with no tooling
+
+### Known issues
+
+- Mapbox.js v2.0.1 requests TileJSON over plain `http://a.tiles.mapbox.com/...`; the legacy endpoint sends no CORS headers, producing console errors. Pre-existing, not a local-dev defect — markers and popups render from the local `art.geojson` regardless.
 
 ## Sandbox Snapshot
 
-- **Snapshot ID:** N/A
-- **Captured:** N/A
-- **Dev stack healthy:** N/A — static site, no runnable stack
-
-> **Note:** Snapshot skipped — no dev stack to snapshot. This is a static HTML site served directly by GitHub Pages.
+- **Snapshot ID:** `h28r9ur7ta8hxqlp19l7:default`
+- **Captured:** 2026-09-24T18:28:14.438Z
+- **Dev stack healthy:** true — static site served on `127.0.0.1:8321`, all primary flows verified in headless Chromium
 
 ## Bibliography
 
