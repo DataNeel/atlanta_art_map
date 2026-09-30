@@ -5,36 +5,59 @@ description: How to run and verify the Atlanta Art Map static site locally
 
 # Local Dev — DataNeel/atlanta_art_map
 
-## Stack
-Static HTML/CSS/JS site (GitHub Pages, branch `gh-pages`). No package manager,
-no build step, no test framework. Mapbox.js v2.0.1 via CDN. Data in `art.geojson`.
+Record of the LOCAL-DEV onboarding pass (2026-09-30, sandbox cmp_oysqb1tt).
 
-## Run
+## What the app is
+
+A static GitHub Pages site: `index.html` loads Mapbox.js v2.0.1 (CDN) plus
+`art.js`, which fetches `art.geojson` (40 features), renders clustered markers,
+a scrollable thumbnail bar (`#info a.item`), and marker popups. No build step,
+no package manager, no tests.
+
+## Run it
+
 ```bash
-python3 -m http.server 8321 --bind 127.0.0.1
-# open http://127.0.0.1:8321/
+# No dependencies to install. Serve the repo root with any static server:
+python3 -m http.server 8000 --bind 127.0.0.1
+# then open http://localhost:8000/
 ```
-Any static file server works; there is no canonical dev server in the repo.
-Parse the actual port from the server output — do not assume a default.
 
-## Verify (canonical flow)
-1. All local assets return 200: `index.html`, `art.js`, `art.geojson`,
-   `stylesheets/styles.css`, `lazysizes.min.js`, `images/<n>.jpg`.
-2. GeoJSON integrity: `python3 -c "import json; json.load(open('art.geojson'))"`
-   (40 features at last check).
-3. Browser check (Playwright + headless Chromium works):
-   - `document.querySelector('#map-one')` exists.
-   - `.leaflet-marker-icon` elements render (markers come from local
-     `art.geojson`, so they render even if Mapbox tiles fail).
-   - Deep link `index.html?piece=1` opens a popup with `picnote` text.
-   - Capture a screenshot as evidence.
+- Check the port is free first; parse the actual port from server output
+  (`Serving HTTP on 127.0.0.1 port 8000` in the log) — do not assume defaults.
+- No lock files to clear (no package manager). No env vars required
+  (Mapbox token is hardcoded in `art.js`).
 
-## Known issues
-- Console errors for `a.tiles.mapbox.com/.../ TileJSON` (CORS): pre-existing —
-  Mapbox.js v2.0.1 requests TileJSON over plain `http://` and the legacy
-  endpoint does not send CORS headers. Not a local-dev defect; markers and
-  popups still work. Tiles may be blank in some environments.
+## Verify it
 
-## Content tooling (manual, not part of dev loop)
-`add_image.py` / `replace_image.py` are Python 2 + PIL scripts that resize
-images and update `art.geojson`. Run manually; not verified here.
+1. **HTTP health:** `curl -s -o /dev/null -w "%{http_code}" http://localhost:8000/index.html`
+   → 200. Same for `art.js`, `art.geojson`, `stylesheets/styles.css`, `images/7.jpg`.
+2. **Data integrity:** `python3 -c "import json; print(len(json.load(open('art.geojson'))['features']))"` → 40.
+3. **Primary flows (Playwright + headless Chromium).** Browser deps on a fresh
+   sandbox: `pip install playwright && python3 -m playwright install chromium
+   --only-shell && sudo python3 -m playwright install-deps chromium`.
+   Exercised flows:
+   - Initial load → `.leaflet-marker-icon` present (markers render/cluster),
+     `#info a.item` count == feature count (40), map instance alive.
+   - Click a thumbnail → `.leaflet-popup` visible, item gains `active` class,
+     popup `<img>` points at a local `images/<id>_thumb.jpg`.
+   - Deep link `?piece=7` → popup auto-opens with that piece's picnote.
+   - Zero `pageerror` events.
+4. **Proof artifacts:** screenshots + `results.json` under `.obvious-install/evidence/`
+   (gitignored). The verify script lives at `.obvious-install/verify.py`; if
+   `.obvious-install/` was cleaned, recreate the checks from step 3.
+
+## Known issue (do not chase during local-dev setup)
+
+The Mapbox classic basemap `atlantaartmap.jnem740e` is dead upstream:
+TileJSON and tiles return HTTP 410 "Classic styles are no longer supported"
+(Mapbox deprecated classic styles). Basemap is blank locally AND in
+production; markers/popups/thumbnails are unaffected. A fix means swapping in
+a new Mapbox style ID + token in `art.js` — a product change requiring owner
+sign-off, not part of onboarding.
+
+## Not applicable here
+
+- Lint / typecheck / tests: none exist (static site, no tooling).
+- Postgres/Redis/etc.: no backing services.
+- `add_image.py` / `replace_image.py`: Python 2 + PIL content utilities;
+  they do not run on Python 3 and are not part of local dev verification.
